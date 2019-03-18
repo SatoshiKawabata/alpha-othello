@@ -1,0 +1,25 @@
+{
+  "name": "alpha-othello",
+  "version": "1.0.0",
+  "description": "",
+  "main": "kei.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SatoshiKawabata/alpha-othello.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SatoshiKawabata/alpha-othello/issues"
+  },
+  "homepage": "https://github.com/SatoshiKawabata/alpha-othello#readme",
+  "dependencies": {
+    "othello-game-logic": "0.0.15",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}
